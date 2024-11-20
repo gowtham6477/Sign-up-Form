@@ -47,3 +47,35 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+h2{
+    margin : 0 0 10px;
+    font-size: 22px;
+}
+p{
+    margin: 0 0 20px;
+    color: #555;
+}
+form h3{
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+.input-group{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+input{
+    padding:10px;
+    font-size:16px;
+    border:1px solid #E5E7EB;
+    border-radius:5px;
+    width:100%;
+}
+
+input:invalid {
+    border-color: red;
+  }
+  input:valid {
+    border-color: green;
+  }
